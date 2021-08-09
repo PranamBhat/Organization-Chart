@@ -1,0 +1,61 @@
+.node-header, .node-content {  
+    padding: .5em .7rem;  
+}  
+  
+.node-header {  
+    background-color: #495ebb;  
+    color: #ffffff;  
+}  
+  
+.node-content {  
+    text-align: center;  
+    border: 1px solid #495ebb;  
+}  
+  
+.node-content img {  
+    border-radius: 50%;  
+}  
+  
+.department-cfo {  
+    background-color: #7247bc;  
+    color: #ffffff;  
+}  
+  
+.department-coo {  
+    background-color: #a534b6;  
+    color: #ffffff;  
+}  
+  
+.department-cto {  
+    background-color: #e9286f;  
+    color: #ffffff;  
+}  
+  
+:host / .p-organizationchart .p-organizationchart-node-content:hover {  
+    background: #DEEDF9 !important;  
+    cursor: pointer;  
+  }  
+  :host /deep/ .p-organizationchart .p-organizationchart-node-content {  
+    border: 1px solid #e0e5e6 !important;  
+    color: #495057 !important;  
+    padding: 0.6rem !important;  
+    border-radius: 5px !important;  
+    background-color: #ffffff !important;  
+    margin-top: -11px;  
+    margin-bottom: -11px !important;  
+  }  
+  :host /deep/ .p-organizationchart .p-organizationchart-line-down {  
+    height: 30px !important;  
+  }  
+  
+  :host /deep/ .node-content {  
+    text-align: center;  
+    border: 0px solid #b0c2d6;  
+  }  
+  
+  :host /deep/ .node-content {  
+    text-align: center;  
+    border: none !important;  
+    /* border: 1px solid #bdc2d6; */  
+    border-radius: 2px !important;  
+  }  

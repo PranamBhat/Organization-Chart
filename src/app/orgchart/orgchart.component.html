@@ -1,0 +1,18 @@
+<div class="container" style="margin-top:10px;margin-bottom: 24px;">
+    <div class="col-sm-12 btn btn-success">
+        Organization Chart in Angular Application
+    </div>
+</div>
+<div class="col-sm-12">
+    <p-organizationChart [value]="data1" selectionMode="single" [(selection)]="selectedNode" styleClass="company">
+        <ng-template let-node pTemplate="person">
+            <div class="node-content row e" style=" width: 225px !important;  
+                         margin-top: -11px; margin-bottom: -11px;">
+
+                <div class="relatipn_ship_css_client rel_client_one"><span class="rel_node_name"
+                        style="padding-left: 83px;">{{node.name}}</span><br /></div>
+                <div class="name_css_profile name_profile_one"><span class="rel_label_name">{{node.label}}</span></div>
+            </div>
+        </ng-template>
+    </p-organizationChart>
+</div>
