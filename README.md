@@ -12,7 +12,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 -------------------------------------------------------------------------
 
-<img src="/screenshots/Organization Chart in Angular Application.gif />
+<img src="/screenshots/Organization Chart in Angular Application.gif" />
 
 -------------------------------------------------------------------------
 
